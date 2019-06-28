@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<mapper namespace="com.cssl.dao.userdao">
+    <insert id="userinsert" parameterType="Users" keyColumn="uid" keyProperty="uid">
+
+   insert into users (uname,password) values (#{uname},#{password})
+    </insert>
+
+</mapper>
+
+
