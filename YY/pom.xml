@@ -82,7 +82,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.8</version>
+            <version>1.2.25</version>
         </dependency>
 
         <!--试了刚种方法。一直还是这个东西。因为堆栈信息什么都没有，Maven版本时3.3.9就是idea自带那个。 -->
